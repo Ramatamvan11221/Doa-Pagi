@@ -1,0 +1,303 @@
+/* ===========================
+   RESET
+=========================== */
+
+*,
+*::before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* ===========================
+   VARIABLES
+=========================== */
+
+:root{
+
+    --bg:#FAFAF8;
+    --surface:#FFFFFF;
+    --text:#222222;
+    --secondary:#666666;
+    --primary:#2F5D50;
+    --border:#E6E6E6;
+
+    --font-size:24px;
+
+    --radius:18px;
+
+    --shadow:
+        0 10px 30px rgba(0,0,0,.05);
+
+}
+
+/* Dark Mode */
+
+body.dark{
+
+    --bg:#151515;
+    --surface:#1E1E1E;
+    --text:#F4F4F4;
+    --secondary:#BDBDBD;
+    --primary:#83C9A4;
+    --border:#303030;
+
+}
+
+/* ===========================
+   BODY
+=========================== */
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+body{
+
+    background:var(--bg);
+    color:var(--text);
+
+    font-family:"Source Serif 4",serif;
+
+    font-size:var(--font-size);
+
+    line-height:2;
+
+    transition:
+        background .3s ease,
+        color .3s ease;
+
+}
+
+/* ===========================
+   HEADER
+=========================== */
+
+.hero{
+
+    text-align:center;
+
+    padding:70px 20px 60px;
+
+}
+
+.cross{
+
+    font-size:42px;
+
+    color:var(--primary);
+
+    margin-bottom:20px;
+
+}
+
+.hero h1{
+
+    font-family:"Merriweather",serif;
+
+    font-size:48px;
+
+    color:var(--primary);
+
+}
+
+.hero p{
+
+    margin-top:14px;
+
+    color:var(--secondary);
+
+    font-size:20px;
+
+}
+
+/* ===========================
+   CONTENT
+=========================== */
+
+#content{
+
+    width:min(850px,92%);
+
+    margin:auto;
+
+    padding-bottom:80px;
+
+}
+
+/* ===========================
+   PRAYER CARD
+=========================== */
+
+.prayer{
+
+    background:var(--surface);
+
+    padding:45px;
+
+    margin-bottom:35px;
+
+    border-radius:var(--radius);
+
+    border:1px solid var(--border);
+
+    box-shadow:var(--shadow);
+
+    transition:.3s;
+
+}
+
+.prayer h2{
+
+    font-family:"Merriweather",serif;
+
+    color:var(--primary);
+
+    font-size:34px;
+
+    margin-bottom:35px;
+
+}
+
+.prayer p{
+
+    margin-bottom:26px;
+
+}
+
+.prayer p:last-child{
+
+    margin-bottom:0;
+
+}
+
+/* ===========================
+   FLOATING MENU
+=========================== */
+
+.floating-menu{
+
+    position:fixed;
+
+    right:25px;
+
+    bottom:25px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:12px;
+
+    z-index:999;
+
+}
+
+.floating-menu button{
+
+    width:52px;
+
+    height:52px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:var(--surface);
+
+    color:var(--text);
+
+    font-size:18px;
+
+    cursor:pointer;
+
+    box-shadow:var(--shadow);
+
+    transition:.25s;
+
+}
+
+.floating-menu button:hover{
+
+    transform:translateY(-3px);
+
+}
+
+/* ===========================
+   SCROLLBAR
+=========================== */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:var(--bg);
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:var(--primary);
+
+    border-radius:50px;
+
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media(max-width:768px){
+
+    :root{
+
+        --font-size:21px;
+
+    }
+
+    .hero{
+
+        padding-top:55px;
+
+    }
+
+    .hero h1{
+
+        font-size:36px;
+
+    }
+
+    .prayer{
+
+        padding:30px;
+
+    }
+
+    .prayer h2{
+
+        font-size:28px;
+
+    }
+
+    .floating-menu{
+
+        right:15px;
+        bottom:15px;
+
+    }
+
+    .floating-menu button{
+
+        width:48px;
+        height:48px;
+
+    }
+
+}
