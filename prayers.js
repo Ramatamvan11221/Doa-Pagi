@@ -83,14 +83,16 @@ const prayers = [
   },
 
   {
-    title: "Doa kepada Bunda Maria",
+    title: "Doa Mukjizat 3 Hari kepada Bunda Maria",
     paragraphs: [
       "Bunga terindah dari Gunung Karmel, Pohon Anggur yang berbuah lebat, Cahaya Kemuliaan Surga, Bunda Putra Allah yang terkasih, Perawan Tak Bernoda, tolonglah aku dalam kebutuhanku ini.",
       "Ya Bintang Laut yang bersinar di tengah gelapnya hidupku, tuntunlah aku dan tunjukkanlah bahwa Engkau sungguh Ibuku.",
       "Ya Santa Maria, Bunda Allah, Ratu Surga dan Bumi, dengan rendah hati dari lubuk hatiku yang terdalam, aku memohon pertolongan-Mu dalam pergumulanku ini.",
       "<b>(Sebut permohonanmu di dalam hati)</b>",
       "Tiada satu pun yang mampu menandingi kuasa doa dan perantaraan-Mu. Ya Maria yang dikandung tanpa noda dosa, doakanlah kami yang berlindung kepadamu.",
-      "Bunda yang penuh kasih, aku menyerahkan perkara ini sepenuhnya ke dalam tangan-Mu. (Ulangi 3 kali dengan penuh iman)"
+      "Bunda yang penuh kasih, aku menyerahkan perkara ini sepenuhnya ke dalam tangan-Mu.",
+      "Amin.",
+      "<b>(Ulangi 3 kali dengan penuh iman)</b>"
     ]
   }
 ];
