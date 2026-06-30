@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#F8F7F3">
 
     <title>Doa Harian</title>
     <meta name="description" content="Website doa harian pribadi">
@@ -17,29 +18,41 @@
     <link rel="stylesheet" href="style.css">
 
     <meta name="theme-color" content="#F8F7F3">
+
+    <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 
 <body>
 
     <!-- Floating Controls -->
     <aside class="floating-menu">
+    
+        <div id="floatingActions" class="floating-actions">
 
-        <button id="themeToggle" title="Dark Mode">
-            🌙
+        <button id="themeToggle">
+            <i data-lucide="moon"></i>
         </button>
 
-        <button id="increaseFont" title="Perbesar Font">
+        <button id="increaseFont">
             A+
         </button>
 
-        <button id="decreaseFont" title="Perkecil Font">
+        <button id="decreaseFont">
             A-
         </button>
 
-        <button id="scrollTop" title="Kembali ke Atas">
-            ↑
+        <button id="scrollTop">
+            <i data-lucide="arrow-up"></i>
         </button>
 
+        </div>
+    
+        <button id="menuToggle">
+        
+            <i data-lucide="settings-2"></i>
+        
+        </button>
+    
     </aside>
 
     <!-- Header -->
@@ -56,6 +69,10 @@
         </p>
 
     </header>
+
+    <button id="backButton" class="floating-back" hidden>
+        <i data-lucide="house"></i>
+    </button>
 
     <!-- Semua doa akan dirender oleh JavaScript -->
     <main id="content">
