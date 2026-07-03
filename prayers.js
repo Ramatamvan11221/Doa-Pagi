@@ -81,12 +81,6 @@ const prayerGroups = {
         "Dalam pengharapan itu aku akan membangun hidup dan masa depanku.",
         "Dalam harapan itu pula aku percaya akan memperoleh hidup abadi bersama Engkau.",
         "Ya Allah, teguhkanlah pengharapanku.",
-        "<div class='divider'></div>",
-        "<b>(Sampaikan Doa & Permohonanmu)</b>",
-        "<b>Bapa Kami...</b>",
-        "<b>Salam Maria...</b>",
-        "<b>Kemuliaan...</b>",
-        "<b>Terpujilah...</b>",
         "Amin."
       ]
     },
@@ -125,11 +119,6 @@ const prayerGroups = {
         "Ku akan tidur untuk beristirahat.",
         "Biarlah malaikat-malaikat-Mu melindungi aku dan keluargaku.",
         "Bangunkan aku besok dan siramlah aku dengan berkat dan kasih karunia-Mu.",
-        "<div class='divider'></div>",
-        "<b>Bapa Kami...</b>",
-        "<b>Salam Maria...</b>",
-        "<b>Kemuliaan...</b>",
-        "<b>Terpujilah...</b>",
         "Amin."
       ]
     }
