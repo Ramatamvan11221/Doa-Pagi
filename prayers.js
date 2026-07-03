@@ -97,6 +97,18 @@ const prayerGroups = {
         "<b>(Ulangi 3 kali dengan penuh iman)</b>",
         "Amin."
       ]
+    },
+
+    {
+      title: "Penutup",
+      paragraphs: [
+        "Roh Kudus, Kaulah penghiburku.",
+        "Roh Kudus, tuntunlah aku ke dalam seluruh kebenaran.",
+        "Roh Kudus, tinggallah di dalam aku.",
+        "Roh Kudus, Engkaulah kekuatan dan penolongku.",
+        "Roh Kudus, Engkau membawa kehidupan dan kedamaian.",
+        "Haleluya. Amin."
+      ]
     }
 
     ],
@@ -120,6 +132,18 @@ const prayerGroups = {
         "Biarlah malaikat-malaikat-Mu melindungi aku dan keluargaku.",
         "Bangunkan aku besok dan siramlah aku dengan berkat dan kasih karunia-Mu.",
         "Amin."
+      ]
+    },
+
+    {
+      title: "Penutup",
+      paragraphs: [
+        "Roh Kudus, Kaulah penghiburku.",
+        "Roh Kudus, tuntunlah aku ke dalam seluruh kebenaran.",
+        "Roh Kudus, tinggallah di dalam aku.",
+        "Roh Kudus, Engkaulah kekuatan dan penolongku.",
+        "Roh Kudus, Engkau membawa kehidupan dan kedamaian.",
+        "Haleluya. Amin."
       ]
     }
   ]
