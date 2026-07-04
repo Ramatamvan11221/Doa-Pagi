@@ -95,6 +95,11 @@ const prayerGroups = {
         "Tiada satu pun yang mampu menandingi kuasa doa dan perantaraan-Mu. Ya Maria yang dikandung tanpa noda dosa, doakanlah kami yang berlindung kepadamu.",
         "Bunda yang penuh kasih, aku menyerahkan perkara ini sepenuhnya ke dalam tangan-Mu.",
         "<b>(Ulangi 3 kali dengan penuh iman)</b>",
+        "<div class='divider'></div>",
+        "<b>Bapa Kami...</b>",
+        "<b>Salam Maria...</b>",
+        "<b>Kemuliaan...</b>",
+        "<b>Terpujilah...</b>",
         "Amin."
       ]
     },
